@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Light
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -701,10 +701,10 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	.mdc-button .mdc-button__label , .nav-item-text-wrapper {
 	 color:#437b42 !important;
 		
-		font-family: "Bricolage Grotesque Variable" , sans-serif !important ; 
 		font-size: 0.98rem !important ; 
 		font-weight: 400 !important ; 
-		font-stretch: semi-condensed
+		font-family: var(--font-BricolageGrotesque) !important ; 
+		font-stretch: 80%  !important;
 }
 	
 	/*Google AI Studio text and UNitiled post text */
@@ -720,7 +720,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	/*SIde bar text */
 	/*System instrcutions adn Run settings  text */
 	h2 , .gmat-title-medium  , h3 {
-		color:#f57d26 !important;
+		color:#567c6d !important;
 		font-family: "Bricolage Grotesque Variable"  !important ; 
 		font-stretch: normal !important ; 
 		font-weight: 550 !important ;
