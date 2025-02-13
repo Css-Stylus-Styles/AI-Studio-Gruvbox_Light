@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AI-Studio-Gruvbox-Light
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -933,15 +933,16 @@ background-color: #f9f5d7 !important;
 	}
 	
 	
+	
+	/*Gemini Side bar dialoggue internal background */
 	.dark-theme .cdk-overlay-pane:not(.mat-mdc-select-panel-above) div.mat-mdc-select-panel{
 		background-color:#fbf1c7 !important;
-	
 		
 	}
 	
 	/*models inside the model selection dialogue box */
 	span.base-model.gmat-body-medium{
-		color:#b8bb26 !important;
+		color:#79740e !important;
 				font-family: "Bricolage Grotesque Variable"   !important ;
 		font-stretch: normal !important ;
 		font-weight: 500 !important ;
@@ -951,15 +952,23 @@ background-color: #f9f5d7 !important;
 	
 	/*Model FUll into subtitiles insdie the dialogue box */
 		.base-model-subtitle {
-		color:#ffd29c !important;
+		color:#83a598 !important;
 				font-family: "Bricolage Grotesque Variable"   !important ;
 		font-stretch: normal !important ;
 		font-size: 1rem !important ;
 }
 	
 	
+	/*Gemini model side bar seelector ->  Gemini  Model series name */
+.model-option-content .gmat-body-medium {
+  color: #437b42 !important;
+	font-family: var(--font-BricolageGrotesque) !important ; 
+	font-stretch: semi-condensed !important ; 
+	font-weight: 700 !important ;
+	font-size: 1.1rem !important ; 
 	
 
+}
 	
 	
 	
