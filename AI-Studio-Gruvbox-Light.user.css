@@ -98,6 +98,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 
 
+
 	@import url(https://db.onlinewebfonts.com/c/5c803199923a6ed48112bebbb486b3e0?family=Lora);
 
 
@@ -737,8 +738,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	/*Cusom Suggestions background color */
 	div.suggestion-card.container {
 	
-		background: #f2e5bc !important ; 
-		border: solid 3px #fb4934 !important ; 
+		background: #fbf1c7 !important ; 
+		border: solid 3px #8ec07c !important ; 
 }
 	
 	/*Cusom Suggestions background color */
@@ -1522,7 +1523,7 @@ div.links a[href="/plan_information"]:hover {
 	
 	
 	
-	
+
 	
 	
 	
@@ -1550,12 +1551,12 @@ div.links a[href="/plan_information"]:hover {
     --mdc-slider-with-tick-marks-container-shape: 50%;
     --mdc-slider-with-tick-marks-container-size: 2px;
     --mdc-slider-with-tick-marks-inactive-container-opacity: 0.6;
-    --mdc-slider-handle-color:  #83a867 !important ;
+    --mdc-slider-handle-color:  #83a598 !important ;
     --mdc-slider-focus-handle-color:  #B8BB26 !important ;
     --mdc-slider-hover-handle-color:  #FABD2F !important ;
-    --mdc-slider-active-track-color: #427b58 !important ;
+    --mdc-slider-active-track-color: #567c6d !important ;
 		/*hidden track color */
-    --mdc-slider-inactive-track-color: #8ec07c !important;
+    --mdc-slider-inactive-track-color: #fb4934 !important;
     --mdc-slider-with-tick-marks-inactive-container-color: var(--color-primary-70);
     --mdc-slider-with-tick-marks-active-container-color: white;
     --mdc-slider-disabled-active-track-color: #fff;
